@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import logo from '../public/images/logo.png';
+import logo from '../public/images/Logo.png';
 import SecondNavbar from '../components/SecondNavbar';
 
 const Navbar = () => {
