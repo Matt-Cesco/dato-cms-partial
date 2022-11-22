@@ -1,18 +1,21 @@
 import LandingPageRecord from "./LandingPageRecord";
-import SecondSectionRecord from "./SecondSectionRecord";
-import ThirdSectionRecord from "./ThirdSectionRecord";
+import SupportBusinessRecord from "./SupportBusinessRecord";
+import Event from "./Event";
+import SectionFreeRes from "./SectionFreeRes";
 
 const HomeSection = ({details}) => {
   if (details.__typename === "LandingPageRecord") {
     return <LandingPageRecord details={details} />;
-  } else if (details.__typename === "SecondSectionRecord") {
-    return <SecondSectionRecord details={details} />;
-  } else if (details.__typename === "ThirdSectionRecord") {
-    return <ThirdSectionRecord details={details} />;
+  } else if (details.__typename === "SupportBusinessRecord") {
+    return <SupportBusinessRecord details={details} />;
+  } else if (details.__typename === "EventRecord") {
+    return <Event details={details} />;
+  } else if (details.__typename === "FreeResourceRecord") {
+    return <SectionFreeRes details={details} />;
   }
   return (
     <></>
   )
 }
 
-export default HomeSection
+export default HomeSection;
