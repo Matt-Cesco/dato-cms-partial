@@ -4,9 +4,9 @@ import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { CaretDownIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 
-const NavigationMenuDemo = () => {
+const SecondNavbar = () => {
   return (
-    <NavigationMenu.Root className="NavigationMenuRoot hidden sm:flex">
+    <NavigationMenu.Root className="NavigationMenuRoot flex hidden sm:block">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item className='pt-4 pb-1 fs-lg'>
           <NavigationMenu.Trigger className="NavigationMenuTrigger">
@@ -104,4 +104,4 @@ const NavigationMenuDemo = () => {
 
 
 
-export default NavigationMenuDemo;
+export default SecondNavbar;

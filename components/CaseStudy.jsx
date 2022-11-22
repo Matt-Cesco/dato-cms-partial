@@ -69,14 +69,14 @@ const CaseStudy = () => {
             
           </div>
           <div className="basis-1/2 px-4 md:px-0 pt-10 md:pt-0">
-            <div class="flex">
-              <p class="text-white text-2xl font-bold">Resources</p>
+            <div className="flex">
+              <p className="text-white text-2xl font-bold">Resources</p>
               </div>
-            <div class="flex pt-3">
-              <p class="text-white text-4xl font-bold pb-2 mb-4">11,000+ businesses have been where you are today.</p>
+            <div className="flex pt-3">
+              <p className="text-white text-4xl font-bold pb-2 mb-4">11,000+ businesses have been where you are today.</p>
             </div>
-            <div class="py-3">
-              <button class="btn-primary-tl">Find out more</button>
+            <div className="py-3">
+              <button className="btn-primary-tl">Find out more</button>
             </div>
           </div>
         </div>

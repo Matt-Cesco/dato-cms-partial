@@ -28,7 +28,7 @@ const LandingPageRecord = ({ details }) => {
           src={details.image.url}
           alt={details.bigTitleH1}
           width={550}
-          height={500}
+          height={260}
        />
           
         </div>
